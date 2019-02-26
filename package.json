@@ -8,7 +8,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "demo:guide": "cat README.md | grep -A 6 'Deploying to Heroku'",
+    "demo:clean": "cat README.md | grep -A 5 'Destroy App'"
   },
   "dependencies": {
     "ejs": "^2.5.6",
